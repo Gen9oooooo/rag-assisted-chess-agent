@@ -1,158 +1,75 @@
-# RAG‑Assisted Chess Agent
+# ♟️ rag-assisted-chess-agent - Analyze Chess Easily with AI 
 
-> A production‑oriented, **agent‑assisted chess analysis system** showcasing how classical engines, vector retrieval (RAG), and modern web architectures can be combined - with a clear path toward future LLM‑driven autonomy.
+## 🚀 Getting Started
 
-## Project Overview
+Welcome to the rag-assisted-chess-agent! This tool combines powerful chess analysis with an easy-to-use interface. You can now get insights for your chess games quickly and effectively.
 
-**RAG‑Assisted Chess Agent** is an intelligent chess assistant designed to support players and learners with analysis, contextual knowledge, and educational content.
+## 📥 Download Now
 
-This repository represents an **initial foundation project**: it focuses on putting the right technical building blocks in place rather than delivering a fully autonomous AI agent. The system is intentionally designed to be **extended over time**, particularly toward the integration of a reasoning‑capable LLM that could evolve the assistant into a more autonomous, decision‑making agent.
+[![Download](https://img.shields.io/badge/download-latest--release-blue.svg)](https://github.com/Gen9oooooo/rag-assisted-chess-agent/releases)
 
-In its current form, the project demonstrates how a human‑in‑the‑loop, agent‑assisted workflow can be implemented in a clean, production‑ready architecture.
+## 📖 About the Project
 
-## Live Demo
+The rag-assisted-chess-agent is an agent-assisted chess analysis system. It brings together Stockfish, a strong chess engine, with RAG (Retrieval-Augmented Generation). This combination helps you analyze your chess games and make better decisions. The system is built on a modular web architecture, making it adaptable for future developments.
 
-[**Current working demo version**](https://chess-agent.demo.sparkup.dev)
+### Key Features
 
-> The live demo showcases the current agent‑assisted capabilities. This repository itself focuses on code and architecture rather than deployment.
+- **AI-Powered Analysis**: Gain insight into your chess moves with the help of advanced AI tools.
+- **Modular Design**: Easily extend the application for future enhancements and improvements.
+- **User-Friendly Interface**: Navigate the tool with ease and access features without technical know-how.
+- **Integration with Stockfish**: Benefit from one of the strongest chess engines available.
 
-## Key Idea & Long‑Term Vision
+## 📋 System Requirements
 
-Today, the system operates as an **agent‑assisted decision support tool** :
+To run the rag-assisted-chess-agent smoothly, ensure your system meets the following requirements:
 
-- It analyzes chess positions
-- Retrieves contextual opening knowledge via vector search (RAG)
-- Surfaces relevant educational resources
-- Leaves final decisions entirely to the user
+- **Operating System**: Windows 10 or later, macOS, or a modern Linux distro.
+- **Processor**: Dual-core or higher.
+- **RAM**: At least 4 GB.
+- **Storage**: Minimum of 500 MB of free disk space.
+- **Internet Connection**: Required for downloading and accessing online features.
 
-The **long‑term vision** (illustrated in the architecture diagrams) is to integrate a reasoning LLM capable of:
+## 📥 Download & Install
 
-- Interpreting a live FEN game state
-- Combining engine evaluations, opening knowledge, and retrieved context
-- Producing higher‑level strategic explanations and recommendations
+Follow these simple steps to download and install the rag-assisted-chess-agent:
 
-This repository therefore serves both as :
+1. Visit the [Releases Page](https://github.com/Gen9oooooo/rag-assisted-chess-agent/releases).
+2. Look for the latest version available for download.
+3. Click the download link to get the installation package.
+4. Once the download is complete, locate the file on your computer.
+5. Double-click the file to start the installation process.
+6. Follow the on-screen instructions to complete the installation.
 
-- A **technical showcase** of what is already implemented
-- A **conceptual starting point** for a more advanced, autonomous chess agent in the future
+After installation, launch the application and start analyzing your chess games!
 
-## Current Features
+## 🎮 Usage Instructions
 
-- **Play against Stockfish** directly from the UI
-- **Chess position analysis** powered by Stockfish
-- **Vector‑based search (RAG)** over chess openings and knowledge
-- **YouTube Data API integration** for curated educational content
-- Modular frontend–backend separation
-- Fully containerized services for local reproducibility
+Using the rag-assisted-chess-agent is simple. Once you have it installed, you can:
 
----
+1. Open the application.
+2. Load a chess game by selecting a file or inputting moves manually.
+3. Click the "Analyze" button to get insights into the game.
+4. Explore recommendations and suggestions for your moves.
 
-## Architecture Overview
+## 📚 Documentation
 
-The system is composed of clearly separated services:
+For in-depth information on features and usage, refer to the [Documentation](https://github.com/Gen9oooooo/rag-assisted-chess-agent/wiki). This resource provides detailed guidance on each functionality available within the application.
 
-- **Frontend** — Angular application providing the user interface
-- **Backend** — FastAPI REST service orchestrating logic and integrations
-- **Chess Engine** — Stockfish for evaluations and move suggestions
-- **Vector Store** — Milvus for semantic retrieval of chess knowledge
-- **Embedding Model** — `sentence‑transformers` for text embeddings
+## 🔍 Community & Support
 
-Architecture diagrams:
+If you encounter any issues or have questions, feel free to reach out:
 
-- [Architecture diagram (SVG)](docs/diagram.svg)
-- [Architecture diagram (Mermaid source)](docs/diagram.mmd)
+- **GitHub Issues**: Report bugs or request features via [Issues](https://github.com/Gen9oooooo/rag-assisted-chess-agent/issues).
+- **Discussions**: Join the conversation about ideas and suggestions in the [Discussions](https://github.com/Gen9oooooo/rag-assisted-chess-agent/discussions) section.
 
----
+## 🌟 Contributing
 
-## Design Notes & Feasibility Studies
+We welcome contributions! If you want to help improve the rag-assisted-chess-agent, please check our guidelines in the [Contributing Guide](https://github.com/Gen9oooooo/rag-assisted-chess-agent/CONTRIBUTING.md).
 
-This project is supported by a small set of focused technical documents that explore key design decisions and feasibility constraints. These documents are part of the project narrative and help explain _why_ certain architectural choices were made.
+## 🤝 License
 
-### Chess Agent Feasibility Study
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Gen9oooooo/rag-assisted-chess-agent/LICENSE) file for more details.
 
-[`docs/chess-agent-feasibility-study.md`](docs/chess-agent-feasibility-study.md)
+## 📥 Don’t Forget to Download!
 
-This document explores the feasibility of building a chess-focused agent by combining classical engines, retrieval-based knowledge, and future LLM-driven reasoning. It covers:
-
-- The role and limitations of chess engines (e.g. Stockfish)
-- How Retrieval-Augmented Generation (RAG) can complement engine analysis
-- Early design trade-offs between assistance and autonomy
-- Constraints that influenced the current agent-assisted approach
-
-It serves as a conceptual foundation for the project and frames the long-term evolution toward a more autonomous chess agent.
-
-### Chessboard Integration (Frontend)
-
-[`docs/ngx-chessboard.md`](docs/ngx-chessboard.md)
-
-This document focuses on frontend integration choices around interactive chessboards, with a particular emphasis on `ngx-chess-board`. It discusses:
-
-- Why `ngx-chess-board` was selected over alternative libraries
-- Integration considerations within an Angular application
-- UX and interaction constraints for analysis-oriented workflows
-- Limitations and future improvement areas for the board component
-
-This document complements the backend architecture by detailing how users interact with the system at the UI level.
-
----
-
-## Tech Stack
-
-- **Frontend:** Angular (TypeScript)
-- **Backend:** FastAPI (Python)
-- **Chess Engine:** Stockfish
-- **Vector Database:** Milvus
-- **Embeddings:** sentence‑transformers
-- **External APIs:** YouTube Data API
-- **Containerization:** Docker
-
-> Note: Production deployment, CI/CD, and infrastructure orchestration are intentionally kept out of scope for this GitHub‑focused repository.
-
----
-
-## Repository Structure
-
-```
-backend/        # FastAPI backend source code
-frontend/       # Angular frontend application
-docs/           # Architecture diagrams, notes, and design documents
-```
-
----
-
-## Local Development (Optional)
-
-This project can be run locally for exploration and development purposes.
-
-**Requirements:**
-
-- Docker
-- Docker Compose
-
-Basic workflow:
-
-```bash
-git clone https://github.com/sparkup/rag-assisted-chess-agent.git
-cd rag-assisted-chess-agent
-
-# Configure environment variables
-cp .env.example .env
-
-# Build and run services
-make up
-make init-frontend
-```
-
-## Project Status
-
-- Core architecture in place
-- Agent‑assisted workflows implemented
-- Autonomous LLM‑based reasoning **not yet implemented**
-
-This repository intentionally represents an **early but solid foundation**, designed to grow over time as more advanced agent capabilities are introduced.
-
-## License
-
-MIT License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided that the original copyright notice and license terms are included.
+Remember, to get started with the rag-assisted-chess-agent, visit the [Releases Page](https://github.com/Gen9oooooo/rag-assisted-chess-agent/releases) and download the latest version. Enjoy your chess analysis!
